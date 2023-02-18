@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'ko.cheonsohee.layoutapp'
+    namespace 'ko.cheonsohee.constraintlayoutapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "ko.cheonsohee.layoutapp"
+        applicationId "ko.cheonsohee.constraintlayoutapp"
         minSdk 21
         targetSdk 33
         versionCode 1
@@ -32,7 +32,6 @@ android {
     }
     buildFeatures {
         viewBinding true
-        dataBinding true
     }
 }
 
